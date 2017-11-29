@@ -1,0 +1,16 @@
+This is a discord bot that is meant to be used for the game Throne of Lies.
+
+It will allow users from a certain role to direct message the bot to queue and an admin user to send out the ToL invite code to the first 15 people within the queue.
+
+The following commands exist right now:
+
+!queue -> Will queue you for a game. Need to have the queue role.
+!invite <code> -> Will send out codes to the first 15 people in the queue. This will dequeue them. Need to have the invite role.
+!count -> Get the current count of users in the queue. Need to have the invite role.
+!clear -> Clear the current queue. Need to have the invite role.
+
+The config.json contains three necessary pieces of information:
+
+1) The discord bot token
+2) The discord role for the person that can send out the invite codes and modify the queue.
+3) The discord role for the person that can queue for games
